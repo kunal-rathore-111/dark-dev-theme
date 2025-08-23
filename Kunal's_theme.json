@@ -1,5 +1,5 @@
 {
-    "name": "Best Themes - Dark Phoenix",
+    "name": "Theme - Dark",
     "type": "dark",
     "colors": {
         "tab.inactiveForeground": "#ffffff9a",
@@ -48,7 +48,7 @@
         "scrollbarSlider.background": "#0e14268b",
         "scrollbar.shadow": "#0a0a0a00",
         "focusBorder": "#a237cc14",
-        "panelTitle.activeBorder": "#00e5ff",
+        "panelTitle.activeBorder": "#00FF41",
         "panelTitle.activeForeground": "#00e5ff",
         "panelTitle.inactiveForeground": "#ffffff",
         "progressBar.background": "#ff000076",
@@ -59,7 +59,7 @@
         "peekViewTitle.background": "#00aeff1a",
         "peekViewTitleLabel.foreground": "#5a73be",
         "editorLineNumber.foreground": "#ADD8E650",
-        "editorBracketMatch.background": "#04104618",
+        "editorBracketMatch.background": "#5a73be30",
         "textLink.foreground": "#2979FF",
         "pickerGroup.foreground": "#2979FF",
         "notificationLink.foreground": "#2979FF",
@@ -68,7 +68,7 @@
         "errorForeground": "#f90086",
         "editorLink.activeForeground": "#FFFFFF",
         "textLink.activeForeground": "#FFFFFF",
-        "editorBracketMatch.border": "#53062600",
+        "editorBracketMatch.border": "#5a73be",
         "editorWhitespace.foreground": "#ffffff10",
         "editorOverviewRuler.border": "#0c0d0e",
         "editorIndentGuide.background": "#8968f6c4",
@@ -140,10 +140,10 @@
         "terminal.ansiBrightMagenta": "#f90086",
         "terminal.ansiBrightRed": "#f9008690",
         "terminal.ansiBrightYellow": "#fff900",
-        "terminal.border": "#040616",
+        "terminal.border": "#39FF14",
         "terminal.background": "#000000",
         "panel.background": "#000000",
-        "panel.border": "#040616",
+        "panel.border": "#00FFBF",
         "titleBar.inactiveBackground": "#000000",
         "titleBar.activeBackground": "#040616",
         "debugToolBar.background": "#040616",
@@ -176,6 +176,16 @@
         "editor.wordHighlightBackground": "#03116300"
     },
     "tokenColors": [
+        {
+            "name": "Brackets",
+            "scope": [
+                "bracket",
+                "punctuation.bracket"
+            ],
+            "settings": {
+                "foreground": "#00e5ff"
+            }
+        },
         {
             "name": "Raw Code",
             "scope": "raw",
@@ -929,7 +939,7 @@
                 "variable.other.constant"
             ],
             "settings": {
-                "foreground": "#ffffff" /* "#ff9748" */
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2127,7 +2137,7 @@
         },
         {
             "name": "Javascript Parameter And Meta",
-            "scope": [ /*"meta.class.js", "variable.other.object.js",*/
+            "scope": [
                 "meta.method.js",
                 "keyword.other.special-method.js",
                 "meta.function-call.generic.js",
@@ -2333,7 +2343,7 @@
         },
         {
             "name": "TS Parameter And Meta",
-            "scope": [ /*"meta.class.ts", "variable.other.object.ts",*/
+            "scope": [
                 "meta.method.ts",
                 "keyword.other.special-method.ts",
                 "meta.function-call.generic.ts",
@@ -2356,7 +2366,6 @@
                 "foreground": "#ff0088"
             }
         },
-        // { "name": "punctuation.separator.key-value.json", "scope": ["punctuation.separator.key-value"], "settings": { "foreground": "#3b0621" } },
         {
             "name": "JSON Property Names",
             "scope": "support.type.property-name.json",
@@ -2476,7 +2485,7 @@
             "settings": {
                 "foreground": "#0fc9fc"
             }
-        }, // new
+        },
         {
             "name": "Java Types",
             "scope": [
