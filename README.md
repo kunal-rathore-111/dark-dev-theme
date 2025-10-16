@@ -5,6 +5,9 @@ This my first ever theme for VS Code created by using Cursor.
 
 A **sleek, high-contrast dark theme** for Visual Studio Code, designed for clarity and focus during long coding sessions.
 
+Demo of the theme in TypeScript:
+![Theme demo](./demo.png)
+
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.87.0-blue?logo=visual-studio-code)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
