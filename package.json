@@ -1,0 +1,108 @@
+{
+    "name": "kunal-dark-dev-theme",
+    "displayName": "Kunal Dark Dev Theme",
+    "description": "A sleek, high-contrast dark theme for VS Code with vibrant syntax highlighting designed for developers who code for hours. Reduce eye strain while enjoying beautiful, clear code with pink, cyan, yellow, and purple accents.",
+    "version": "0.2.0",
+    "publisher": "KunalRathore",
+    "author": {
+        "name": "Kunal Rathore",
+        "url": "https://github.com/kunal-rathore-111"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kunal-rathore-111/dark-dev-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kunal-rathore-111/dark-dev-theme/issues"
+    },
+    "homepage": "https://github.com/kunal-rathore-111/dark-dev-theme#readme",
+    "qna": "https://github.com/kunal-rathore-111/dark-dev-theme/issues",
+    "engines": {
+        "vscode": "^1.87.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "badges": [
+        {
+            "url": "https://img.shields.io/visual-studio-marketplace/v/KunalRathore.kunal-dark-dev-theme",
+            "href": "https://marketplace.visualstudio.com/items?itemName=KunalRathore.kunal-dark-dev-theme",
+            "description": "Marketplace Version"
+        },
+        {
+            "url": "https://img.shields.io/visual-studio-marketplace/i/KunalRathore.kunal-dark-dev-theme",
+            "href": "https://marketplace.visualstudio.com/items?itemName=KunalRathore.kunal-dark-dev-theme",
+            "description": "Installs"
+        },
+        {
+            "url": "https://img.shields.io/github/stars/kunal-rathore-111/dark-dev-theme",
+            "href": "https://github.com/kunal-rathore-111/dark-dev-theme",
+            "description": "GitHub Stars"
+        }
+    ],
+    "keywords": [
+        "dark theme",
+        "dark",
+        "theme",
+        "color theme",
+        "high contrast",
+        "vibrant",
+        "syntax highlighting",
+        "developer theme",
+        "coding theme",
+        "eye strain",
+        "night theme",
+        "black theme",
+        "kunal",
+        "purple",
+        "pink",
+        "cyan",
+        "yellow",
+        "neon",
+        "modern",
+        "clean",
+        "elegant",
+        "semantic highlighting",
+        "javascript",
+        "typescript",
+        "python",
+        "react",
+        "vue",
+        "angular",
+        "php",
+        "java",
+        "c++",
+        "cpp",
+        "go",
+        "rust",
+        "html",
+        "css",
+        "json",
+        "markdown",
+        "node",
+        "web development",
+        "full stack"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#000000",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kunal Dark Dev",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kunal-dark-dev-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
+    }
+}

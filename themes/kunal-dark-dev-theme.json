@@ -1,6 +1,7 @@
 {
-    "name": "Theme - Dark",
+    "name": "Kunal Dark Dev",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         "tab.inactiveForeground": "#ffffff9a",
         "activityBar.inactiveForeground": "#4d4d4d",
@@ -21,7 +22,7 @@
         "list.focusBackground": "#5869d71f",
         "list.focusForeground": "#5a73be",
         "list.highlightForeground": "#2979FF",
-        "list.activeSelectionForeground": "#f90085f8",
+        "list.activeSelectionForeground": "#fffef0",
         "list.activeSelectionBackground": "#1e0d5f5b",
         "list.inactiveSelectionBackground": "#222a5a3a",
         "list.inactiveSelectionForeground": "#4fb1cfef",
@@ -82,7 +83,7 @@
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveForeground": "#3a3a3a",
         "titleBar.border": "#0a0a0a60",
-        "input.foreground": "#ff00ae",
+        "input.foreground": "#fff066",
         "input.placeholderForeground": "#ffffff60",
         "input.border": "#f9008600",
         "input.background": "#040616",
