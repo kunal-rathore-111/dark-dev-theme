@@ -1,6 +1,6 @@
 {
-    "name": "kunal-dark-dev-theme",
-    "displayName": "Kunal Dark Dev Theme",
+    "name": "dark-dev-theme",
+    "displayName": "Dark-Dev Theme",
     "description": "A sleek, high-contrast dark theme for VS Code with vibrant syntax highlighting designed for developers who code for hours. Reduce eye strain while enjoying beautiful, clear code with pink, cyan, yellow, and purple accents.",
     "version": "0.2.0",
     "publisher": "KunalRathore",
@@ -92,7 +92,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Kunal Dark Dev",
+                "label": "Dark-Dev Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/kunal-dark-dev-theme.json"
             }
