@@ -1,4 +1,4 @@
-# 🌙 Kunal Dark Dev Theme
+# 🌙 Dark Dev Theme
 
 A sleek, high-contrast dark theme for Visual Studio Code designed for developers who code for hours. Experience vibrant syntax highlighting with carefully crafted colors that reduce eye strain and enhance code readability.
 
